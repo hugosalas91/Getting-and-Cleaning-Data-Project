@@ -19,3 +19,16 @@ You should create one R script called run_analysis.R that does the following.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 Good luck!
+
+## run_analysis.R
+
+Run the script run_analysis.R with the below code:
+
+source("run_analysis.R")
+
+This will download the data sets and save them in a folder called data. The data sets have the next features:
+
+- dataset1.csv - 10299 rows and 81 cols
+- dataset2.csv - 180 rows and 81 cols
+
+The code will create an independent tidy data set with the average of each variable for each activity and each subject in the file **tidy_data_set.txt**.
